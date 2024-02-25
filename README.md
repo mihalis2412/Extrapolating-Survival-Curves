@@ -35,17 +35,18 @@ PCA is performed to reduce the dimensionality of the data and identify patterns 
 Generates visualizations including Kaplan-Meier plots, bar charts, histograms, scatter plots, box plots, and heatmaps to gain insights into the data and present findings.
 
 # Modeling Techniques:
-Models fitted include both parametric and semi-parametric models, such as:
+Models fitted include both parametric & semi-parametric models, such as:
 - Exponential,
 - Weibull,
 - Log-Logistic,
 - Log-Normal,
 - Gompertz,
 - Gamma,
-- and Generalized Gamma distributions.
-- Cox PH model.
+- and Generalized Gamma,
 - Royston-Parmar splines,
-- Poly-Weibull distribution.
+- Poly-Weibull,
+- Cox PH model.
+Non-parametric estimators (Kaplan-Meier) are also implemented.
 
 # Model Evaluation and Selection:
 
