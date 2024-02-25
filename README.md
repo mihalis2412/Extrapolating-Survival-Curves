@@ -2,7 +2,7 @@
 Investigation of techniques for survival extrapolation using suitable richly parametric &amp; semi-parametric methods for time to event data. 
 
 # Dataset
-The dataset used in this analysis is sourced from Kaggle. It contains clinical information about breast cancer patients, including demographic details, tumor characteristics, treatment history, and survival outcomes. The dataset comprises both numerical and categorical variables, providing a comprehensive view of patients' health status and disease progression.
+The dataset used in this analysis is sourced from Kaggle (Breat Cancer Metabric). It contains clinical information about breast cancer patients, including demographic details, tumor characteristics, treatment history, and survival outcomes. The dataset comprises both numerical and categorical variables, providing a comprehensive view of patients' health status and disease progression.
 
 # Code Structure
 The code is written in R programming language and organized into several sections:
@@ -35,7 +35,7 @@ PCA is performed to reduce the dimensionality of the data and identify patterns 
 Generates visualizations including Kaplan-Meier plots, bar charts, histograms, scatter plots, box plots, and heatmaps to gain insights into the data and present findings.
 
 # Modeling Techniques:
-Models fitted include:
+Models fitted include both parametric and semi-parametric models, such as:
 - Exponential,
 - Weibull,
 - Log-Logistic,
@@ -43,12 +43,13 @@ Models fitted include:
 - Gompertz,
 - Gamma,
 - and Generalized Gamma distributions.
+- Cox PH model.
+- Royston-Parmar splines,
+- Poly-Weibull distribution.
 
 # Model Evaluation and Selection:
 
 - Computes and compares information criteria such as AIC and BIC for model selection.
-
-- Implements advanced models like Royston-Parmar splines and Poly-Weibull distributions.
 
 - Extrapolates survival curves beyond the observed data range using different packages (e.g., rms and survival).
 
