@@ -52,6 +52,7 @@ Models fitted include both parametric & semi-parametric models, such as:
 - Royston-Parmar splines,
 - Poly-Weibull,
 - Cox PH model.
+
 Non-parametric estimators (Kaplan-Meier) are also implemented.
 
 # Model Evaluation and Selection:
