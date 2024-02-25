@@ -2,7 +2,7 @@
 Investigation of techniques for survival extrapolation using suitable richly parametric &amp; semi-parametric methods for time to event data. 
 
 # Dataset
-The dataset used in this analysis is sourced from Kaggle (Breat Cancer Metabric). It contains clinical information about breast cancer patients, including demographic details, tumor characteristics, treatment history, and survival outcomes. The dataset comprises both numerical and categorical variables, providing a comprehensive view of patients' health status and disease progression.
+The dataset used in this analysis is sourced from Kaggle or other Machine Learning repositories (Breast Cancer METABRIC). It contains clinical information about breast cancer patients, including demographic details, tumor characteristics, treatment history, and survival outcomes. The dataset comprises both numerical and categorical variables, providing a comprehensive view of patients' health status and disease progression.
 
 # Code Structure
 The code is written in R programming language and organized into several sections:
