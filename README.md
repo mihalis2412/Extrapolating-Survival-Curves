@@ -16,15 +16,15 @@ Visualizes the distribution of variables, explores relationships between predict
 - Chi-Squared,
 - Fisher's Exact Test,
 - Spearman Rank Correlation,
-- Mutual Information,
-- Kendall's Tau Correlation.
+- Kendall's Tau Correlation,
+- Mutual Information.
 
 # Variable Selection: 
 Several variable selection techniques are employed to identify the most relevant predictors for the survival analysis. This includes step-wise methods such as:
 - backward selection,
 - forward selection,
 - both-direction selection,
-- didge regression,
+- ridge regression,
 - lasso regression,
 - elastic net.
 
