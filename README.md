@@ -38,7 +38,7 @@ Generates visualizations including:
 - histograms,
 - scatter plots,
 - box plots,
-- and heatmaps to gain insights into the data and present findings.
+- and heatmaps, to gain insights into the data and present findings.
 
 # Modeling Techniques:
 Models fitted include both parametric & semi-parametric models, such as:
