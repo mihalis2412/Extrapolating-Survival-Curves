@@ -32,7 +32,13 @@ Several variable selection techniques are employed to identify the most relevant
 PCA is performed to reduce the dimensionality of the data and identify patterns among the predictors.
 
 # Visualization: 
-Generates visualizations including Kaplan-Meier plots, bar charts, histograms, scatter plots, box plots, and heatmaps to gain insights into the data and present findings.
+Generates visualizations including:
+- Kaplan-Meier plots,
+- bar charts,
+- histograms,
+- scatter plots,
+- box plots,
+- and heatmaps to gain insights into the data and present findings.
 
 # Modeling Techniques:
 Models fitted include both parametric & semi-parametric models, such as:
